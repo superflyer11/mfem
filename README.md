@@ -25,6 +25,16 @@ process.
 
 * Instructions for learning with Docker are in [config/docker](config/docker).
 
+## Quick start
+
+Build the library in serial mode and run Example 1 with:
+
+```bash
+./run_example.sh
+```
+
+The script calls `make serial` followed by `make check`.
+
 Conceptually, MFEM can be viewed as a finite element toolbox that provides the
 building blocks for developing finite element algorithms in a manner similar to
 that of MATLAB for linear algebra methods. In particular, MFEM provides support
